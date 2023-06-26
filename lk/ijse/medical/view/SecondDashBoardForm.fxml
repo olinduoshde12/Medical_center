@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="784.0" prefWidth="1534.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.medical.control.SecondDashBoardFormController">
+   <children>
+      <Pane layoutY="-1.0" prefHeight="70.0" prefWidth="1616.0" style="-fx-background-color: white;">
+         <children>
+            <Label layoutX="766.0" layoutY="14.0" text="Dash Board">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Label>
+            <Separator layoutX="2.0" layoutY="69.0" prefHeight="3.0" prefWidth="1616.0" />
+            <ImageView layoutX="696.0" layoutY="12.0">
+               <image>
+                  <Image url="@../pic/icons8-dashboard-layout-48.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <JFXButton layoutX="75.0" layoutY="106.0" onAction="#AppoinDetailOnAction" prefHeight="185.0" prefWidth="339.0" style="-fx-background-radius: 50; -fx-border-color: blue; -fx-border-radius: 50;" stylesheets="@../pic/Ap.css" text="Check Appoinment Details">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="679.0" layoutY="111.0" prefHeight="176.0" prefWidth="302.0" style="-fx-background-radius: 50; -fx-border-color: blue; -fx-border-radius: 50;" stylesheets="@../pic/emp.css" text="Check Employee Details">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="1223.0" layoutY="111.0" prefHeight="176.0" prefWidth="302.0" style="-fx-background-radius: 50; -fx-border-color: blue; -fx-border-radius: 50;" stylesheets="@../pic/dc.css" text="Check Doctors Details">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXButton>
+      <ImageView layoutX="213.0" layoutY="88.0">
+         <image>
+            <Image url="@../pic/icons8-appointment-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="72.0" layoutX="794.0" layoutY="85.0">
+         <image>
+            <Image url="@../pic/icons8-employee-64%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="72.0" layoutX="1328.0" layoutY="85.0">
+         <image>
+            <Image url="@../pic/icons8-stethoscope-50.png" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="context4" layoutX="24.0" layoutY="332.0" prefHeight="432.0" prefWidth="1569.0" style="-fx-background-color: #eaf9fa;" />
+   </children>
+</AnchorPane>
